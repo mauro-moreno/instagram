@@ -4,7 +4,8 @@
 
 * 404 Not found: When location not found on database, and it doesn't exists
 on Instagram.
-* ```json
+*
+```
 {
     "id": 1,
     "uuid": "1022569602097622988_312042314",
@@ -60,10 +61,10 @@ composer
 mysql
 sqlite
 ```
-1. Install vendors ```bash composer install```
-1. Copy .env.example to .env and update with local data ```bash cp .env.example .env```
+1. Install vendors ```composer install```
+1. Copy .env.example to .env and update with local data ```cp .env.example .env```
 1. Update _config/instagram.php_ with a valid client id and client secret.
-1. Migrate database ```bash php artisan migrate```
+1. Migrate database ```php artisan migrate```
 
 ## TODOs
 
